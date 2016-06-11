@@ -1,0 +1,140 @@
+/*
+Theme Name: wiki
+Theme URI: http://WikiLink.by/
+Description: Theme create for com. Wikilink.
+Author: Denis Kalishok
+Author URI: https://new.vk.com/d.nefedov
+Version: 0.1
+.
+Theme created for the private use of the company Wikilink.
+Author and owner of the rights is Denis Kalishok.
+.
+*/
+
+.alignnone {
+margin: 5px 20px 20px 0;
+}
+.aligncenter, div.aligncenter {
+display:block;
+margin: 5px auto 5px auto;
+}
+.alignright {
+float:right;
+margin: 5px 0 20px 20px;
+}
+.alignleft {
+float:left;
+margin: 5px 20px 20px 0;
+}
+.aligncenter {
+display: block;
+margin: 5px auto 5px auto;
+}
+a img.alignright {
+float:right;
+margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+float:left;
+margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+.wp-caption {
+background: #fff;
+border: 1px solid #f0f0f0;
+max-width: 96%; /* Image does not overflow the content area */
+padding: 5px 3px 10px;
+text-align: center;
+}
+.wp-caption.alignnone {
+margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+border: 0 none;
+height: auto;
+margin:0;
+max-width: 98.5%;
+padding:0;
+width: auto;
+}
+.wp-caption p.wp-caption-text {
+font-size:11px;
+line-height:17px;
+margin:0;
+padding:0 4px 5px;
+}
+
+
+/*стили к контенту статических страниц*/
+
+/*============================== Тарифы ======================== */
+
+.tarifblue {
+	box-shadow: 0 0 2px 1px #005a88;
+}
+
+.tarifred {
+	box-shadow: 0 0 2px 1px #a52a2a;
+}
+
+.tarifgray {
+	box-shadow: 0 0 2px 1px #464646;
+}
+.tariforange {
+	box-shadow: 0 0 2px 1px #ff4f00;
+}
+.tarifgreen {
+	box-shadow: 0 0 2px 1px #057637;
+}
+.tarifblue > tbody > tr > td,.tarifred > tbody > tr > td, .tarifgray > tbody > tr > td, .tarifgreen > tbody > tr > td,.tariforange > tbody > tr > td {
+		vertical-align:middle !important;
+}
+/*========================== Зона обслуживания ==================== */
+.service_zone hr{
+margin:0;
+    width: inherit;
+    border: none;
+    min-height: 1px;
+    max-height: 1px;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(170, 170, 170, 0.80) 50%, rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(170, 170, 170, 0.80) 50%, rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(170, 170, 170, 0.80) 50%, rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(170, 170, 170, 0.80) 50%, rgba(0,0,0,0));
+}
+.service_zone p{
+	margin:0;
+}
+.service_zone div{
+	margin-bottom: 15px;
+}
+div#headingOne a,div#headingOne i{
+	color: #005a88;
+}
+div#headingTwo a,div#headingTwo i{
+	color: #a52a2a;
+}
+div#headingThree a,div#headingThree i{
+	color: #057637;
+}
+div#headingFour a,div#headingFour i{
+	color: #ff4f00;
+}
+div#headingFive a,div#headingFive i{
+	color: #464646;
+}
+/*=============================Контакты============================*/
+

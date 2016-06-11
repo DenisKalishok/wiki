@@ -1,0 +1,10 @@
+.error h5{
+    font-weight: bold;
+}
+.error a{
+    font-style: italic;
+    font-weight: bold;
+}
+.error a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+.galary img{
+	margin: 10px;
+}
+.img-thumbnail{
+	padding: 3px;
+}
+
+@media (max-width: 768px){
+	.galary img{
+		margin: 10px auto;
+		display: table-row;
+	}
+}
